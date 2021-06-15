@@ -14,7 +14,7 @@ log = '0.4.0'
 serde = '1.0.115'
 serde_derive = '1.0'
 toml = '0.5'
-substrate-subxt = { git = 'https://github.com/octopus-network/substrate-subxt.git', version = '0.15.0'}
+substrate-subxt = { version = '0.15.0'}
 
 calls = { path = '../calls' }
 node-runtime = { path = '../runtime', package = 'node-template-runtime' }
