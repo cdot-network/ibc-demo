@@ -5,14 +5,14 @@ authors = ['Yuanchao Sun <ys@cdot.network>']
 edition = '2018'
 
 [dependencies]
-codec = { package = 'parity-scale-codec', version = '1.3.4', default-features = false, features = ['derive', 'full'] }
-substrate-subxt = { git = 'https://github.com/cdot-network/substrate-subxt.git', branch = 'ibc-demo', version = '0.12.0'}
+codec = { package = 'parity-scale-codec', version = '2.0.0', default-features = false, features = ['derive', 'full'] }
+substrate-subxt = { git = 'https://github.com/octopus-network/substrate-subxt.git', version = '0.15.0'}
 
 node-runtime = { path = '../runtime', package = 'node-template-runtime' }
 pallet-ibc = { path = '../pallets/ibc' }
 
-frame-system = '2.0.0'
-pallet-balances = '2.0.0'
-sp-core = '2.0.0'
-sp-finality-grandpa = '2.0.0'
-sp-runtime = '2.0.0'
+frame-system = '3.0.0'
+pallet-balances = '3.0.0'
+sp-core = '3.0.0'
+sp-finality-grandpa = '3.0.0'
+sp-runtime = '3.0.0'
