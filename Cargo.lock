@@ -2622,6 +2622,7 @@ dependencies = [
  "serde",
  "serde_derive",
  "serde_json",
+ "sha2 0.9.5",
  "sp-std",
  "subtle-encoding",
  "tendermint",
@@ -9367,18 +9368,3 @@ dependencies = [
  "itertools",
  "libc",
 ]
-
-[[patch.unused]]
-name = "tendermint-light-client"
-version = "0.19.0"
-source = "git+https://github.com/octopus-network/tendermint-rs.git?branch=octpus-no-std-flex-error#1dd613a9b0769b0bc3b9aa6e3391aa42416451f4"
-
-[[patch.unused]]
-name = "tendermint-rpc"
-version = "0.19.0"
-source = "git+https://github.com/octopus-network/tendermint-rs.git?branch=octpus-no-std-flex-error#1dd613a9b0769b0bc3b9aa6e3391aa42416451f4"
-
-[[patch.unused]]
-name = "tendermint-testgen"
-version = "0.19.0"
-source = "git+https://github.com/octopus-network/tendermint-rs.git?branch=octpus-no-std-flex-error#1dd613a9b0769b0bc3b9aa6e3391aa42416451f4"
