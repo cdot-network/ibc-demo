@@ -13,7 +13,7 @@ clap = '2.33.0'
 codec = { package = 'parity-scale-codec', version = '2.0.0', default-features = false, features = ['derive', 'full'] }
 hex = '0.4.0'
 lazy_static = '1.4.0'
-substrate-subxt = { version = '0.15.0'}
+substrate-subxt = '0.15.0'
 
 calls = { path = '../calls' }
 pallet-ibc = { path = '../pallets/ibc' }

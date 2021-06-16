@@ -1,3 +1,4 @@
 [submodule "pallets/ibc"]
 	path = pallets/ibc
-	url = https://github.com/cdot-network/substrate-ibc.git
+	url = https://github.com/octopus-network/substrate-ibc.git
+	branch = davirain
